@@ -30,7 +30,7 @@ $page->startBody();
                 foreach ($results as $exp) { ?>
                     <div class="experience-item">
                         <span class="experience-item-img">
-                            <img src="../images/<?= $exp->image_url; ?>.png" alt="<?= $exp->image_url; ?>"/>
+                            <img src="../images/<?= $exp->image_url; ?>.jpg" alt="<?= $exp->image_url; ?>"/>
                         </span>
                         <div class="experience-item-description">
                             <h2><?= $exp->place; ?></h2>

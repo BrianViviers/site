@@ -63,7 +63,7 @@ foreach ($this->javascripts as $javascript) {
             <i class="fa fa-linkedin"></i> Linkedin
         </a>
     </div>
-    <div class="footer-img"><img src="../images/Fizz.png" /></div>
+    <div class="footer-img"><img src="../images/Fizz.jpg" /></div>
     <div class="copyright">
         <p id="copyright">&copy; <span id="year"></span> Brian Viviers</p>
     </div>
