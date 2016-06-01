@@ -1,0 +1,17 @@
+﻿<div class="slider">
+    {% for num in (1...10) %}
+    {% if {{num}} == 1 %}
+    {% assign checked = "checked" %}
+    {% else %}
+    {% assign checked = "" %}
+    {% endif %}
+    <input type="radio" name="slide_switch" id="lets{{ num }}" checked="{{checked}}" />
+    <label for="lets{{ num }}">
+        <img src="../images/lets/Part{{ num }}.png" width="50" />
+    </label>
+    <video controls class="slider-image" preload="none" poster="../images/lets/Part{{ num }}.png">
+        <source src="../videos/lets/Part{{ num }}.mp4" type='video/mp4'>Your browser does not support the video tag.
+    </video>
+    {% endfor %}
+</div>
+

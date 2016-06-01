@@ -1,0 +1,59 @@
+﻿
+<html>
+<head>
+    <title>3 Body Problem</title>
+    <link rel="stylesheet" href="css/three_body.css" />
+</head>
+<body>
+    <div class="imgElem"></div>
+    Speed: <select id="speedInput">
+        <option value="0.01">0.01</option>
+        <option value="0.1">0.1</option>
+        <option value="0.2">0.2</option>
+        <option value="0.5">0.5</option>
+        <option value="0.7">0.7</option>
+        <option value="1" selected="selected">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    Planet Size: <select id="planetSize">
+        <option value="5">Teeny Weeny</option>
+        <option value="10">Tiny</option>
+        <option value="15">Less Tiny</option>
+        <option value="20">Small</option>
+        <option value="25">Less Small</option>
+        <option value="30" selected="selected">Normal</option>
+        <option value="40">Larger</option>
+        <option value="50">Big</option>
+        <option value="60">Very Big</option>
+        <option value="150">Monsterous</option>
+    </select>
+    Scaling Factor (figure 8): <select id="scaleInput">
+        <option value="50">Very Close</option>
+        <option value="150">Close</option>
+        <option value="300" selected="selected">Normal</option>
+        <option value="400">Further</option>
+        <option value="500">Far Apart</option>
+        <option value="600">Furthest</option>
+    </select>
+    <input id="threeBodyStart" type="button" value="Figure 8 Orbit" onclick="threeBodyStart()" />
+    <input id="twoBodyStart" type="button" value="Sun/Planet/Moon" onclick="twoBodyStart()" />
+    <input id="sunTwoPlanets" type="button" value="Sun and 2 Planets" onclick="sunTwoPlanets()" />
+    <input id="resetBtn" type="button" value="Stop" onclick="resetBtn()" />
+    <label id="planetGrid"></label>
+    <img id="asteroid" src="../images/3-body/Asteroid.png" alt="An Asteroid" style="position:absolute; visibility:hidden;" />
+    <img id="station" src="../images/3-body/station.png" alt="Space Station" style="position:absolute; visibility:hidden; height:80px; width:80px;" /><br />
+    <h1 id="description">Click on a button to select the simulation.</h1>
+    <br /><br /><br /><br />
+    <p id="parscore"></p><input id="score" type="text" value="0" style="visibility:hidden; font-size:xx-large; width:75px" />
+    <label id="parcannon"></label>
+    <script type='text/javascript' src="../js/3_body_problem.js"></script>
+</body>
+</html>

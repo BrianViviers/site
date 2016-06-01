@@ -1,0 +1,21 @@
+﻿body {
+  margin: 0px;
+  padding: 0px;
+  color: White;
+  background-image: url(../images/3-body/sky.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.planetStyle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+#description {
+    left: 10px;
+    top: 50px;
+    position: absolute; /* this is absolute to prevent a scroll bar appearing! */
+    color: White;
+}
