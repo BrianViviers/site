@@ -10,10 +10,6 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript, Java, C#, .NET, Computer Science, Software Engineer">
     <meta name="google-site-verification" content="nWv6YqrheMveMu45n5un_eipQ0IGmJQoK1tCfi7m5IY"/>
     <link rel="stylesheet" href="css/site.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="../css/open_sans.css" rel='stylesheet' type='text/css'>
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -70,9 +66,6 @@ foreach ($this->javascripts as $javascript) {
 </footer>
 <script type='text/javascript' src="js/jquery-2.2.2.min.js"></script>
 <script type='text/javascript' src="js/Site.js"></script>
-<script type='text/javascript' src="js/modernizr.js"></script>
-<script type='text/javascript' src="js/plugins.js"></script>
-<script type='text/javascript' src="js/animatedModal.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var slider = document.querySelectorAll(".slider input[name='slide_switch']");

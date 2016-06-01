@@ -20,25 +20,6 @@
         $(this).nextAll().eq(1).css('z-index', 3000);
     });
 
-    $("#ants").animatedModal({
-        modalTarget: 'antsModal'
-    });
-    $("#moose").animatedModal({
-        modalTarget: 'mooseModal'
-    });
-
-    $("#compass").animatedModal({
-        modalTarget: 'compassModal'
-    });
-
-    $("#threebody").animatedModal({
-        modalTarget: 'threebodyModal'
-    });
-
-    $("#lets").animatedModal({
-        modalTarget: 'letsModal'
-    });
-
     $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
