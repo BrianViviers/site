@@ -404,6 +404,10 @@ footer {
     color: white;
 }
 
+.contact a, .social-media a {
+    line-height: 3;
+}
+
 .contact a:hover, .social-media a:hover {
     color: Highlight;
 }
